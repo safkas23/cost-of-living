@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
+  background: #fafafa;
+  color: #222;
+}
+
+#map svg { width: 100%; }
+
+#controls { margin-bottom: 1rem; }
+#controls select { font-size: 14px; padding: 4px 8px; }
+
+#detail {
+  border-top: 1px solid #ddd;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+}
+
+#tooltip {
+  position: fixed;
+  pointer-events: none;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 13px;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+#legend {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: #666;
+  margin: 6px 0 1rem;
+}
+
+h1 {
+  color: #72243E;
+}
+
+.tab-btn {
+  background-color: #F4C0D1;
+  border-radius: 6px;
+}
+
+.tab-btn.active {
+  background-color: #F4C0D1;
+}
+
+#state-name {
+  color: #F4C0D1;
+}
+
+.tab-content h2 {
+  color: #993556;
+}
+
+.tab-content h3 {
+  color: #F4C0D1;
+}
